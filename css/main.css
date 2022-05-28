@@ -36,12 +36,13 @@
 }
 .header {
     background-color: #FFFFFF;
-    height: 98px;
+    padding: 24px 0;
 }
 .container {
     margin-left: auto;
     margin-right: auto;
     width: 1100px;
+    overflow: hidden;
 }
 .header-text {
     display: flex;
@@ -65,7 +66,6 @@
 
 .logo-text {
     margin-right: 16px;
-    margin-left: 170px;
 }
 
 .nav-list {
@@ -75,18 +75,13 @@
     align-items: center;
 }
 .nav-item {
-    margin-right: 32px;
-    margin-top: 49px;
-    margin-bottom: 38px;
     Font-family: "Open Sans", sans-serif;
     font-weight: 700;
     font-style: normal;
+    margin-right: 32px;
 }
-.one {
-    margin-left: 114px;
-}
-.five {
-    margin-right: 139px;
+.nav-item:last-child{
+    margin-right: 0;
 }
 .nav-link {
     color: #222222;
@@ -95,40 +90,38 @@
     text-transform: uppercase;
     height: 21px;
 }
-.span-link {
-    margin-top: 30px;
-    margin-bottom: 37px;
+  
+.container-link {
     font-family: "Open Sans Condensed", sans-serif;
     font-weight: 700;
     font-style: normal;
-}
-.container-link {
     background-color: #DE2E54; 
     text-decoration: none;
     color: #FFFFFF;
     font-size: 15px;
     border: 1px solid #DE2E54;
     border-radius: 8px;
-    width: 189px;
-    height: 47px;
+    padding: 12px 24px;
+   
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-right: 194px;
     text-transform: uppercase;
 }
-.main {
-    background-color: #0EB4C1;
+
+.malumot__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
 }
 .malumot {
-    
-    display: flex;
+    background-color: #0EB4C1;
+
 }
 .malumot-text {
     width: 500px;
-    margin-top: 120px;
-    margin-bottom: 120px;
-    margin-right: 117px;
+    padding-top: 90px;
 }
 .malumot1 {
     color: #FFFFFF;
@@ -160,9 +153,7 @@
     font-style: normal;
     text-transform: uppercase;
 }
-.doktor {
-    margin-top: 29px;
-}
+
 .xizmat {
     background-color: #FFFFFF;
 }
@@ -176,10 +167,8 @@
 .xizmatlar-list {
     list-style: none;
     width: 864px;
-    height: 1040px;
+    margin: 0 auto;
     margin-top: 56px;
-    margin-left: 288px;
-    margin-right: 288px;
 }
 .xizmatlar-item {
     margin-bottom: 80px;
@@ -189,9 +178,6 @@
 .xizmatlar-img {
     border-radius: 24px;
     margin-right: 64px;
-}
-.xizmatlar-text {
-    
 }
 .xizmatlar-item-title {
     color: #222222;
@@ -249,8 +235,12 @@
 }
 .yakun {
     background-color: #222222;
-    height: 98px;
+    padding: 24px 0;
+}
+.footer__container {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .logo-img1 {
     display: flex;
@@ -272,6 +262,10 @@
     Font-family: "Open Sans", sans-serif;
     font-size: 700;
     font-style: normal;
+
+}
+.yakun-item:last-child{
+    margin-right: 0;
 }
 .yakun-link {
     color: #FFFFFF;
